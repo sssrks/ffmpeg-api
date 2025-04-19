@@ -1,1 +1,8 @@
-{ pkgs }: { deps = [ pkgs.ffmpeg pkgs.python3 pkgs.python3Packages.pip ]; } 
+{ pkgs }: {
+  deps = [
+    pkgs.ffmpeg
+    pkgs.python311
+    pkgs.python311Packages.flask
+  ];
+}
+
